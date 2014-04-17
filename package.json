@@ -1,0 +1,36 @@
+{
+  "name": "at0mic-tweetbot",
+  "version": "0.0.1",
+  "description": "A little app to scan the tweets for keywords",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "connect": "~1.8.5",
+    "express": "~2.5.2",
+    "forever": "~0.10.11",
+    "jade": "~0.20.0",
+    "ntwitter": "~0.5.0",
+    "mongoose": "~2.4.8",
+    "sanitizer": "~0.1.1",
+    "mysql": "~2.1.1",
+    "pg": "2.11.1",
+    "socket.io": "~0.8.7",
+    "should": "~3.2.0-beta1",
+    "vows": "~0.5.13",
+    "pubnub": "3.6.1",
+    "newrelic": "1.4.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "At0mic",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
